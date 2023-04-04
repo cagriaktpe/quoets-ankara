@@ -1,0 +1,55 @@
+[
+    {
+        "name" : "Mustafa Kemal Atatürk",
+        "quote" : "Peace at home, peace in the world.",
+        "year" : 1931,
+        "description" : [
+            "In Turkish, the slogan 'Yurtta sulh, cihanda sulh' – 'Peace at home, peace in the world' – was first pronounced by Mustafa Kemal Atatürk on 20 April 1931 to the public during his tours of Anatolia. This stance was later integrated and implemented as the foreign policy of the Republic of Turkey.",
+            "The original full sentence was 'Cumhuriyet Halk Fırkası'nın müstakar umumî siyasetini şu kısa cümle açıkça ifadeye kâfidir zannederim: Yurtta sulh, cihanda sulh için çalışıyoruz.' This is translated into English as 'To describe the stable and general diplomatic policy of the Republican People's Party, I think this short sentence is enough: We work for peace at home, peace in the world.'"
+        ],
+        "image" : "ataturk"
+    },
+    {
+        "name" : "Winston Churchill",
+        "quote" : "Responsibility is the price of Greatness",
+        "year" : 1943,
+        "description" : [
+            "Effective leadership takes boldness. Without audacity, a will to win and a growth mindset, leadership is not sustainable.",
+            "I have watched some local companies defy the generational kiss of death by making brave decisions as the world around them changed. Leaders understand the importance of shifting paradigms to maintain relevance and real chances to win.",
+            "I have seen new companies emerge, claiming their own unique position in the market and marching forward to future success. Leaders push themselves and those around them to reach for the unthinkable, the unspeakable and the unpredictable.",
+            "I have witnessed some communities across our nation make choices to rise above mediocrity and be known for something more than squeezing budgets in difficult economic times. Leaders acknowledge current realities and still push toward what is right.."
+        ],
+        "image" : "winston-churchill"
+    },
+    {
+        "name" : "Woodrow Wilson",
+        "quote" : "This is a war to end all wars",
+        "year" : 1917,
+        "description" : [
+            "President Woodrow Wilson made the saying famous, but he was not the first one who used it.",
+            "The British futurist writer and social commentator H.G. Wells invented the phrase.",
+            "He predicted that WWI would be the last war in his article titled “The War That Will End War,” published in The Daily News on Aug. 14, 1914.",
+            "Three years later, President Woodrow Wilson also said that the war will 'make the world safe for democracy' to justify his call for a declaration of war on Germany.",
+            "He was convinced that America's involvement in the war was essential to protect human freedom."
+        ],
+        "image" : "woodrow-wilson"
+    },
+    {
+        "name" : "Henri Barbusse",
+        "quote" : "Two armies that fight each other is like one large army that commits suicide",
+        "year" : 1916,
+        "description" : [
+            "The French soldier said this in his novel Le Feu."
+        ],
+        "image" : "henri-barbusse"
+    },
+    {
+        "name" : "George Santayana",
+        "quote" : "Only the dead have seen the end of war",
+        "year" : 1922,
+        "description" : [
+            "The Spanish-American philosopher said this statement to counter President Woodrow Wilson's words in his book Soliloquies in England and Later Soliloquies."
+        ],
+        "image" : "george-santayana"
+    }
+]

@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA3B7D0E29DC3E16005AF0F3 /* QuoteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3B7D0D29DC3E16005AF0F3 /* QuoteDetailView.swift */; };
+		EA3B7D1029DC598B005AF0F3 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3B7D0F29DC598B005AF0F3 /* CardView.swift */; };
+		EA5B937629DB5FBE00D40125 /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = EA5B937529DB5FBE00D40125 /* Data.json */; };
+		EA5B937829DB665D00D40125 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5B937729DB665D00D40125 /* Quote.swift */; };
+		EA5B937A29DB66C800D40125 /* QuoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5B937929DB66C800D40125 /* QuoteModel.swift */; };
+		EA5B937D29DB679D00D40125 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5B937C29DB679D00D40125 /* DataService.swift */; };
 		EA80E51929DB5DE400441BE9 /* Quoets_AnkaraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA80E51829DB5DE400441BE9 /* Quoets_AnkaraApp.swift */; };
 		EA80E51B29DB5DE400441BE9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA80E51A29DB5DE400441BE9 /* ContentView.swift */; };
 		EA80E51D29DB5DE900441BE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA80E51C29DB5DE900441BE9 /* Assets.xcassets */; };
@@ -14,6 +20,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EA3B7D0D29DC3E16005AF0F3 /* QuoteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteDetailView.swift; sourceTree = "<group>"; };
+		EA3B7D0F29DC598B005AF0F3 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		EA5B937529DB5FBE00D40125 /* Data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; };
+		EA5B937729DB665D00D40125 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		EA5B937929DB66C800D40125 /* QuoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteModel.swift; sourceTree = "<group>"; };
+		EA5B937C29DB679D00D40125 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		EA80E51529DB5DE400441BE9 /* Quoets-Ankara.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quoets-Ankara.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA80E51829DB5DE400441BE9 /* Quoets_AnkaraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quoets_AnkaraApp.swift; sourceTree = "<group>"; };
 		EA80E51A29DB5DE400441BE9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +44,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EA5B937B29DB676B00D40125 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				EA5B937C29DB679D00D40125 /* DataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		EA80E50C29DB5DE400441BE9 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +71,12 @@
 		EA80E51729DB5DE400441BE9 /* Quoets-Ankara */ = {
 			isa = PBXGroup;
 			children = (
+				EA5B937B29DB676B00D40125 /* Services */,
+				EA80E52929DB5E1500441BE9 /* Data */,
+				EA80E52829DB5E0700441BE9 /* ViewModels */,
+				EA80E52729DB5E0000441BE9 /* Models */,
+				EA80E52629DB5DF400441BE9 /* Views */,
 				EA80E51829DB5DE400441BE9 /* Quoets_AnkaraApp.swift */,
-				EA80E51A29DB5DE400441BE9 /* ContentView.swift */,
 				EA80E51C29DB5DE900441BE9 /* Assets.xcassets */,
 				EA80E51E29DB5DE900441BE9 /* Preview Content */,
 			);
@@ -65,6 +89,40 @@
 				EA80E51F29DB5DE900441BE9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EA80E52629DB5DF400441BE9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EA80E51A29DB5DE400441BE9 /* ContentView.swift */,
+				EA3B7D0D29DC3E16005AF0F3 /* QuoteDetailView.swift */,
+				EA3B7D0F29DC598B005AF0F3 /* CardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EA80E52729DB5E0000441BE9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EA5B937729DB665D00D40125 /* Quote.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EA80E52829DB5E0700441BE9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				EA5B937929DB66C800D40125 /* QuoteModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		EA80E52929DB5E1500441BE9 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				EA5B937529DB5FBE00D40125 /* Data.json */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +185,7 @@
 			files = (
 				EA80E52029DB5DE900441BE9 /* Preview Assets.xcassets in Resources */,
 				EA80E51D29DB5DE900441BE9 /* Assets.xcassets in Resources */,
+				EA5B937629DB5FBE00D40125 /* Data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +196,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA3B7D1029DC598B005AF0F3 /* CardView.swift in Sources */,
+				EA3B7D0E29DC3E16005AF0F3 /* QuoteDetailView.swift in Sources */,
 				EA80E51B29DB5DE400441BE9 /* ContentView.swift in Sources */,
+				EA5B937829DB665D00D40125 /* Quote.swift in Sources */,
+				EA5B937A29DB66C800D40125 /* QuoteModel.swift in Sources */,
 				EA80E51929DB5DE400441BE9 /* Quoets_AnkaraApp.swift in Sources */,
+				EA5B937D29DB679D00D40125 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
